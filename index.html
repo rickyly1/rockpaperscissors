@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <h3>First to 5 versus the Computer</h3>
+
+    <form id="selection">
+        <input type="radio" name="userHand" id="rock" value="rock">
+        <label for="rock">Rock</label>
+        <input type="radio" name="userHand" id="paper" value="paper">
+        <label for="paper">Paper</label>
+        <input type="radio" name="userHand" id="scissors" value="scissors">
+        <label for="scissors">Scissors</label>
+    </form>
+
+    <div class="scoreboard">
+        <p class="human">
+            You: <span class="human-score">0</span>
+        </p>
+
+        <p class="computer">
+            Computer: <span class="computer-score">0</span>
+        </p>
+    </div>
+
+    <button class="play-button">Play</button>
+
+    <h5 id="outcome-text"></h5>
+    <script src="script.js"></script>
+</body>
+</html>
